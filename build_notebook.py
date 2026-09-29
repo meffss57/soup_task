@@ -157,7 +157,9 @@ assert src and set(src) == set(dst)
 with torch.no_grad():
     for k, v in src.items():
         dst[k].copy_(v.to(dst[k].dtype))
-ids = tok.apply_chat_template(rows[0]["prompt"] + rows[0]["chosen"], return_tensors="pt").to("cuda")
+# transformers 5: apply_chat_template(return_tensors=...) returns a dict, so render text, then tokenize
+text = tok.apply_chat_template(rows[0]["prompt"] + rows[0]["chosen"], tokenize=False)
+ids = tok(text, return_tensors="pt", add_special_tokens=False)["input_ids"].to("cuda")
 with torch.no_grad():
     a = streamed(input_ids=ids).logits
     b = resident(input_ids=ids).logits
