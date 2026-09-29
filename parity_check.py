@@ -1,9 +1,27 @@
 """Section 3: streamed vs resident parity. Run in the notebook with: %run -i parity_check.py
 (-i so it can use log() and RUN_TAG from section 0)."""
 # ---- Section 3 (self-contained): streamed vs resident parity ------------------------------
-import gc, json, shutil, tempfile
+import datetime, gc, json, os, shutil, tempfile
 from pathlib import Path
 import torch
+
+# work from the project folder on Drive even if the session was restarted
+PROJ = "/content/drive/MyDrive/soup_project"
+if not os.path.exists(PROJ):
+    from google.colab import drive
+    drive.mount("/content/drive")
+os.chdir(PROJ)
+os.makedirs("logs", exist_ok=True)
+print("working in", os.getcwd())
+
+if "RUN_TAG" not in globals():
+    RUN_TAG = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+if "log" not in globals():
+    def log(msg, file="logs/run.log"):
+        line = f"[{datetime.datetime.now().isoformat(timespec='seconds')}] {msg}"
+        print(line)
+        with open(file, "a", encoding="utf-8") as f:
+            f.write(line + "\n")
 
 # 1) free anything left over from an earlier (failed) run of this cell
 for _name in ("runtime",):
