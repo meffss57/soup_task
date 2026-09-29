@@ -1,0 +1,36 @@
+# DPO with layer streaming on a Colab T4 (16 GB, sm_75, no bf16 -> fp16).
+# Every value is set explicitly: several soup defaults are wrong for this run
+# (val_split 0.1 takes the LAST 10% of the file unshuffled, grad accumulation
+# defaults to 4, the bundled DPO example uses lr 5e-7 which barely moves a LoRA).
+base: Qwen/Qwen2.5-1.5B-Instruct
+task: dpo
+backend: transformers
+
+data:
+  train: data/dpo_train.jsonl   # 400 pairs
+  format: dpo
+  val_split: 0.0                # held-out 100 pairs are evaluated by verify_training.py
+  max_length: 512               # longest pair is ~200 tokens; checked in the notebook
+
+training:
+  epochs: 2
+  batch_size: 4                 # streaming: bigger batch amortises the per-step layer reads
+  gradient_accumulation_steps: 2  # effective batch 8 -> 50 optimizer steps/epoch
+  lr: 2.0e-5
+  warmup_ratio: 0.1
+  scheduler: cosine
+  max_grad_norm: 1.0
+  dpo_beta: 0.1
+  seed: 42
+  quantization: none            # fp16 stream on T4
+  logging_steps: 1
+  save_steps: 25
+  lora:
+    r: 16
+    alpha: 32
+    dropout: 0.05
+    target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+  stream_layers: true
+  stream_buffers: 2
+
+output: /content/out-dpo-1.5b   # local disk (fast); final adapter is copied to Drive

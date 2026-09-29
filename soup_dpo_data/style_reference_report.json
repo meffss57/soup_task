@@ -1,0 +1,29 @@
+{
+  "reference": {
+    "source": "Yandex Geo Reviews Dataset 2023 (MIT)",
+    "filter": "rubrics ~ 'Пункт выдачи|Курьерские услуги|Офис интернет-магазина|Почтов|Постамат' and rating <= 2",
+    "stats": {
+      "n": 1051,
+      "median_len_chars": 366,
+      "starts_lowercase": 0.028,
+      "no_final_punct": 0.254,
+      "multi_excl_or_question": 0.183,
+      "emoji": 0.047,
+      "caps_word": 0.104,
+      "ellipsis_or_brackets": 0.136,
+      "no_space_after_comma": 0.129
+    }
+  },
+  "synthetic_prompts": {
+    "n": 500,
+    "median_len_chars": 75,
+    "starts_lowercase": 0.436,
+    "no_final_punct": 0.454,
+    "multi_excl_or_question": 0.18,
+    "emoji": 0.056,
+    "caps_word": 0.042,
+    "ellipsis_or_brackets": 0.134,
+    "no_space_after_comma": 0.118
+  },
+  "note": "Public map reviews are longer and more formal than support-chat tickets, so length and lowercase share are not expected to match exactly; punctuation / emphasis habits are what the noise pipeline is tuned to."
+}

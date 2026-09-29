@@ -1,0 +1,214 @@
+{
+  "verdict": "NO_OP",
+  "reasons": [
+    "lora_B all zero or adapter does not change logits"
+  ],
+  "warnings": [],
+  "inputs": {
+    "base": "Qwen/Qwen2.5-0.5B-Instruct",
+    "adapter": "selftest_adapter_zero",
+    "eval": "data/dpo_eval.jsonl",
+    "n_pairs": 12,
+    "beta": 0.1,
+    "device": "cpu",
+    "time": "2026-09-29T14:33:12"
+  },
+  "1_loaded": {
+    "saved_tensors": 336,
+    "matched_byte_identical": 336,
+    "missing_in_model": [],
+    "n_missing": 0,
+    "value_mismatch": [],
+    "n_mismatch": 0,
+    "live_lora_params": 336,
+    "ok": true
+  },
+  "2_moved": {
+    "lora_B_tensors": 168,
+    "lora_B_nonzero": 0,
+    "all_lora_B_zero": true,
+    "rel_update_norm_by_module": {
+      "down_proj": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "gate_proj": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "up_proj": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "k_proj": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "o_proj": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "q_proj": {
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "v_proj": {
+        "mean": 0.0,
+        "max": 0.0
+      }
+    },
+    "rel_update_norm_overall_mean": 0.0
+  },
+  "3_active": {
+    "max_abs_logit_diff": 0.0,
+    "mean_token_KL_off_vs_on": 0.0,
+    "identical": true
+  },
+  "4_learned_heldout": {
+    "n": 12,
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "frac_delta_positive": 0.0,
+    "sign_test_p": 1.0
+  },
+  "4_learned_heldout_per_token": {
+    "n": 12,
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "frac_delta_positive": 0.0,
+    "sign_test_p": 1.0
+  },
+  "4_reference_prior": {
+    "frac_reference_already_prefers_chosen": 0.25
+  },
+  "4_by_failure_mode": {
+    "generic_instruction": {
+      "n": 1,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "passive_wait": {
+      "n": 2,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "polite_deflection": {
+      "n": 1,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "unsafe_data_request": {
+      "n": 1,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "unverified_promise": {
+      "n": 1,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "wrong_fact": {
+      "n": 6,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    }
+  },
+  "4_by_category": {
+    "account_access": {
+      "n": 1,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "damaged_item": {
+      "n": 2,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "delivery_late": {
+      "n": 1,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "delivery_tracking": {
+      "n": 1,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "refund_delay": {
+      "n": 1,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "return_request": {
+      "n": 1,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "rude_staff": {
+      "n": 1,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "subscription": {
+      "n": 2,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "tech_app_crash": {
+      "n": 2,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    }
+  },
+  "4_by_template_seen_in_train": {
+    "False": {
+      "n": 9,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    },
+    "True": {
+      "n": 3,
+      "mean_delta": 0.0,
+      "frac_positive": 0.0
+    }
+  },
+  "4_length_shortcut": {
+    "n_pairs_rejected_longer": 4,
+    "frac_delta_positive_when_rejected_longer": 0.0,
+    "spearman_delta_vs_len_diff": -0.5664335664335665
+  },
+  "5_random_direction_control": {
+    "n": 12,
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "frac_delta_positive": 0.0,
+    "sign_test_p": 1.0
+  },
+  "5_random_direction_control_per_token": {
+    "n": 12,
+    "mean_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "frac_delta_positive": 0.0,
+    "sign_test_p": 1.0
+  },
+  "limitations_what_this_does_not_detect": [
+    "Does not show the answers are GOOD Russian support replies: margins measure preference on our synthetic pairs, not free-form quality. Generations are saved for manual reading.",
+    "Cannot tell a real preference from a surface cue shared by train and eval (template wording, keywords, length). The length and unseen-template slices reduce, not remove, this.",
+    "Held-out pairs come from the same generator as training pairs, so a positive margin is an in-distribution result, not evidence on real tickets.",
+    "Runs the model resident (not streamed). Streamed-vs-resident equality is covered by the parity test (forward only), not by this script.",
+    "Says nothing about general capability loss; that is soup ship's forgetting leg."
+  ],
+  "runtime_s": 22.7
+}

@@ -1,0 +1,12 @@
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": 78, "failure_mode": "passive_wait", "category": "refund_delay", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": 43, "failure_mode": "unverified_promise", "category": "rude_staff", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": 41, "failure_mode": "unsafe_data_request", "category": "account_access", "template_seen_in_train": true, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": 12, "failure_mode": "wrong_fact", "category": "subscription", "template_seen_in_train": true, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": 21, "failure_mode": "wrong_fact", "category": "return_request", "template_seen_in_train": true, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": 75, "failure_mode": "wrong_fact", "category": "delivery_late", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": -19, "failure_mode": "passive_wait", "category": "damaged_item", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": 21, "failure_mode": "polite_deflection", "category": "tech_app_crash", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": -3, "failure_mode": "wrong_fact", "category": "subscription", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": 57, "failure_mode": "generic_instruction", "category": "delivery_tracking", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": -4, "failure_mode": "wrong_fact", "category": "tech_app_crash", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 0.0, "beta_margin": 0.0, "len_diff_tokens": -5, "failure_mode": "wrong_fact", "category": "damaged_item", "template_seen_in_train": false, "prefix_ok": true}

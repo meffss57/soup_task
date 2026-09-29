@@ -1,0 +1,12 @@
+{"delta": -8.153472900390625, "beta_margin": -0.8153472900390626, "len_diff_tokens": 78, "failure_mode": "passive_wait", "category": "refund_delay", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 21.560455322265625, "beta_margin": 2.1560455322265626, "len_diff_tokens": 43, "failure_mode": "unverified_promise", "category": "rude_staff", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": -37.30558776855469, "beta_margin": -3.730558776855469, "len_diff_tokens": 41, "failure_mode": "unsafe_data_request", "category": "account_access", "template_seen_in_train": true, "prefix_ok": true}
+{"delta": -18.159088134765625, "beta_margin": -1.8159088134765626, "len_diff_tokens": 12, "failure_mode": "wrong_fact", "category": "subscription", "template_seen_in_train": true, "prefix_ok": true}
+{"delta": -26.92474365234375, "beta_margin": -2.692474365234375, "len_diff_tokens": 21, "failure_mode": "wrong_fact", "category": "return_request", "template_seen_in_train": true, "prefix_ok": true}
+{"delta": -36.44651794433594, "beta_margin": -3.644651794433594, "len_diff_tokens": 75, "failure_mode": "wrong_fact", "category": "delivery_late", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 25.141571044921875, "beta_margin": 2.5141571044921878, "len_diff_tokens": -19, "failure_mode": "passive_wait", "category": "damaged_item", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": -6.1462554931640625, "beta_margin": -0.6146255493164063, "len_diff_tokens": 21, "failure_mode": "polite_deflection", "category": "tech_app_crash", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": -2.9036102294921875, "beta_margin": -0.2903610229492188, "len_diff_tokens": -3, "failure_mode": "wrong_fact", "category": "subscription", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": -31.27667999267578, "beta_margin": -3.127667999267578, "len_diff_tokens": 57, "failure_mode": "generic_instruction", "category": "delivery_tracking", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": -1.094146728515625, "beta_margin": -0.1094146728515625, "len_diff_tokens": -4, "failure_mode": "wrong_fact", "category": "tech_app_crash", "template_seen_in_train": false, "prefix_ok": true}
+{"delta": 10.742828369140625, "beta_margin": 1.0742828369140625, "len_diff_tokens": -5, "failure_mode": "wrong_fact", "category": "damaged_item", "template_seen_in_train": false, "prefix_ok": true}

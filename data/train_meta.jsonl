@@ -1,0 +1,400 @@
+{"id": "soup-0206", "category": "wrong_price", "failure_mode": "passive_wait", "prompt_template": 5, "noise": ["lowercase", "no_space_after_comma", "chat_split"]}
+{"id": "soup-0223", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 5, "noise": ["order_number", "autocap", "no_space_after_comma"]}
+{"id": "soup-0490", "category": "wrong_price", "failure_mode": "passive_wait", "prompt_template": 8, "noise": ["tail", "autocap", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0157", "category": "delivery_late", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["order_number", "lowercase", "final_punct"]}
+{"id": "soup-0435", "category": "refund_delay", "failure_mode": "unverified_promise", "prompt_template": 9, "noise": ["order_number", "story", "autocap", "final_punct"]}
+{"id": "soup-0155", "category": "warranty", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["order_number", "caps"]}
+{"id": "soup-0436", "category": "warranty", "failure_mode": "wrong_fact", "prompt_template": 1, "noise": ["order_number", "autocap", "final_punct", "no_punct", "typos"]}
+{"id": "soup-0225", "category": "duplicate_charge", "failure_mode": "wrong_fact", "prompt_template": 5, "noise": ["story", "tail", "autocap", "no_punct", "emotion"]}
+{"id": "soup-0494", "category": "rude_staff", "failure_mode": "wrong_subcase", "prompt_template": 6, "noise": ["story", "autocap"]}
+{"id": "soup-0238", "category": "subscription", "failure_mode": "generic_instruction", "prompt_template": 4, "noise": ["autocap", "no_punct", "typos"]}
+{"id": "soup-0003", "category": "order_cancellation", "failure_mode": "wrong_fact", "prompt_template": 9, "noise": ["story", "autocap"]}
+{"id": "soup-0084", "category": "warranty", "failure_mode": "wrong_fact", "prompt_template": 2, "noise": ["lowercase", "final_punct"]}
+{"id": "soup-0138", "category": "promo_code_issue", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["final_punct"]}
+{"id": "soup-0496", "category": "delivery_tracking", "failure_mode": "unverified_promise", "prompt_template": 8, "noise": ["order_number", "lowercase", "chat_split"]}
+{"id": "soup-0062", "category": "warranty", "failure_mode": "polite_deflection", "prompt_template": 12, "noise": ["lowercase", "no_space_after_comma"]}
+{"id": "soup-0492", "category": "refund_amount", "failure_mode": "wrong_fact", "prompt_template": 2, "noise": ["order_number", "autocap", "no_punct"]}
+{"id": "soup-0322", "category": "damaged_item", "failure_mode": "passive_wait", "prompt_template": 9, "noise": ["story", "greeting", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0247", "category": "refund_amount", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["order_number", "autocap", "final_punct"]}
+{"id": "soup-0333", "category": "delivery_late", "failure_mode": "unverified_promise", "prompt_template": 14, "noise": ["tail", "autocap", "emotion", "translit"]}
+{"id": "soup-0292", "category": "subscription", "failure_mode": "generic_instruction", "prompt_template": 2, "noise": ["greeting", "autocap", "no_space_after_comma"]}
+{"id": "soup-0386", "category": "duplicate_charge", "failure_mode": "unverified_promise", "prompt_template": 0, "noise": ["tail", "autocap"]}
+{"id": "soup-0020", "category": "account_access", "failure_mode": "generic_instruction", "prompt_template": 8, "noise": ["story", "tail", "autocap", "ellipsis", "grammar"]}
+{"id": "soup-0427", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["order_number", "greeting", "autocap", "final_punct", "chat_split"]}
+{"id": "soup-0078", "category": "order_cancellation", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["autocap", "emotion", "caps"]}
+{"id": "soup-0153", "category": "return_request", "failure_mode": "generic_instruction", "prompt_template": 4, "noise": ["autocap", "emotion"]}
+{"id": "soup-0126", "category": "rude_staff", "failure_mode": "generic_instruction", "prompt_template": 12, "noise": ["autocap", "emotion", "chat_split"]}
+{"id": "soup-0370", "category": "delivery_tracking", "failure_mode": "wrong_fact", "prompt_template": 6, "noise": ["order_number", "greeting", "emotion"]}
+{"id": "soup-0313", "category": "refund_amount", "failure_mode": "passive_wait", "prompt_template": 7, "noise": ["final_punct", "no_punct", "chat_split", "typos"]}
+{"id": "soup-0424", "category": "payment_failed", "failure_mode": "unsafe_data_request", "prompt_template": 3, "noise": ["story", "tail", "lowercase", "final_punct", "emotion"]}
+{"id": "soup-0404", "category": "warranty", "failure_mode": "generic_instruction", "prompt_template": 11, "noise": ["lowercase", "ellipsis", "typos"]}
+{"id": "soup-0112", "category": "duplicate_charge", "failure_mode": "polite_deflection", "prompt_template": 10, "noise": ["story", "tail", "autocap", "final_punct"]}
+{"id": "soup-0241", "category": "promo_code_issue", "failure_mode": "unverified_promise", "prompt_template": 8, "noise": ["tail", "lowercase", "emotion"]}
+{"id": "soup-0474", "category": "wrong_item", "failure_mode": "wrong_fact", "prompt_template": 5, "noise": ["story", "autocap", "final_punct", "ellipsis"]}
+{"id": "soup-0064", "category": "rude_staff", "failure_mode": "redundant_question", "prompt_template": 2, "noise": ["order_number", "tail", "typos"]}
+{"id": "soup-0393", "category": "warranty", "failure_mode": "unverified_promise", "prompt_template": 12, "noise": ["order_number", "autocap", "final_punct", "emotion", "chat_split"]}
+{"id": "soup-0023", "category": "promo_code_issue", "failure_mode": "wrong_subcase", "prompt_template": 3, "noise": ["story", "autocap", "final_punct", "typos"]}
+{"id": "soup-0318", "category": "order_cancellation", "failure_mode": "wrong_subcase", "prompt_template": 8, "noise": ["order_number", "story", "greeting", "tail", "autocap", "final_punct", "ellipsis", "no_space_after_comma"]}
+{"id": "soup-0133", "category": "duplicate_charge", "failure_mode": "polite_deflection", "prompt_template": 8, "noise": ["tail", "autocap", "final_punct", "no_space_after_comma", "emotion"]}
+{"id": "soup-0293", "category": "subscription", "failure_mode": "generic_instruction", "prompt_template": 3, "noise": ["lowercase"]}
+{"id": "soup-0456", "category": "tech_app_crash", "failure_mode": "wrong_fact", "prompt_template": 6, "noise": []}
+{"id": "soup-0374", "category": "duplicate_charge", "failure_mode": "passive_wait", "prompt_template": 13, "noise": ["story", "lowercase", "final_punct", "no_punct", "emotion"]}
+{"id": "soup-0401", "category": "return_request", "failure_mode": "wrong_subcase", "prompt_template": 9, "noise": ["lowercase", "no_punct"]}
+{"id": "soup-0246", "category": "wrong_price", "failure_mode": "wrong_subcase", "prompt_template": 3, "noise": ["story", "autocap", "chat_split"]}
+{"id": "soup-0181", "category": "wrong_item", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["tail", "autocap", "final_punct", "no_punct"]}
+{"id": "soup-0434", "category": "tech_app_crash", "failure_mode": "unverified_promise", "prompt_template": 6, "noise": ["story", "lowercase", "emotion", "typos"]}
+{"id": "soup-0194", "category": "missing_item", "failure_mode": "passive_wait", "prompt_template": 9, "noise": ["story", "autocap"]}
+{"id": "soup-0295", "category": "delivery_late", "failure_mode": "unverified_promise", "prompt_template": 8, "noise": ["tail", "autocap", "chat_split"]}
+{"id": "soup-0235", "category": "warranty", "failure_mode": "generic_instruction", "prompt_template": 3, "noise": ["lowercase"]}
+{"id": "soup-0376", "category": "account_access", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["tail", "lowercase"]}
+{"id": "soup-0297", "category": "delivery_address", "failure_mode": "passive_wait", "prompt_template": 12, "noise": ["autocap", "final_punct", "no_punct"]}
+{"id": "soup-0028", "category": "personal_data", "failure_mode": "wrong_subcase", "prompt_template": 6, "noise": ["greeting", "autocap"]}
+{"id": "soup-0053", "category": "missing_item", "failure_mode": "polite_deflection", "prompt_template": 0, "noise": ["final_punct", "typos"]}
+{"id": "soup-0377", "category": "damaged_item", "failure_mode": "generic_instruction", "prompt_template": 14, "noise": ["order_number", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0480", "category": "duplicate_charge", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["order_number", "autocap", "final_punct"]}
+{"id": "soup-0024", "category": "order_cancellation", "failure_mode": "passive_wait", "prompt_template": 3, "noise": ["autocap", "final_punct", "chat_split"]}
+{"id": "soup-0421", "category": "account_access", "failure_mode": "wrong_fact", "prompt_template": 1, "noise": ["tail", "final_punct", "typos"]}
+{"id": "soup-0069", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["autocap", "final_punct", "no_punct", "emotion"]}
+{"id": "soup-0058", "category": "tech_app_crash", "failure_mode": "passive_wait", "prompt_template": 2, "noise": ["final_punct"]}
+{"id": "soup-0281", "category": "warranty", "failure_mode": "wrong_subcase", "prompt_template": 9, "noise": ["order_number", "greeting", "autocap", "caps"]}
+{"id": "soup-0459", "category": "promo_code_issue", "failure_mode": "unverified_promise", "prompt_template": 0, "noise": ["lowercase", "ellipsis"]}
+{"id": "soup-0245", "category": "wrong_price", "failure_mode": "generic_instruction", "prompt_template": 13, "noise": ["order_number", "emotion", "chat_split"]}
+{"id": "soup-0260", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 9, "noise": ["autocap", "final_punct", "typos"]}
+{"id": "soup-0049", "category": "order_cancellation", "failure_mode": "passive_wait", "prompt_template": 11, "noise": ["order_number", "greeting", "tail", "autocap"]}
+{"id": "soup-0095", "category": "wrong_price", "failure_mode": "passive_wait", "prompt_template": 7, "noise": ["story", "greeting", "autocap", "no_space_after_comma", "grammar"]}
+{"id": "soup-0057", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 1, "noise": ["autocap", "no_punct"]}
+{"id": "soup-0171", "category": "duplicate_charge", "failure_mode": "polite_deflection", "prompt_template": 0, "noise": ["lowercase", "final_punct"]}
+{"id": "soup-0040", "category": "subscription", "failure_mode": "polite_deflection", "prompt_template": 7, "noise": ["greeting", "lowercase"]}
+{"id": "soup-0100", "category": "duplicate_charge", "failure_mode": "wrong_fact", "prompt_template": 4, "noise": ["tail", "no_space_after_comma", "emotion"]}
+{"id": "soup-0139", "category": "subscription", "failure_mode": "partial_resolution", "prompt_template": 1, "noise": ["greeting", "autocap", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0277", "category": "tech_app_crash", "failure_mode": "unverified_promise", "prompt_template": 1, "noise": ["story", "autocap"]}
+{"id": "soup-0337", "category": "subscription", "failure_mode": "wrong_fact", "prompt_template": 12, "noise": ["greeting", "autocap", "emotion"]}
+{"id": "soup-0439", "category": "rude_staff", "failure_mode": "unverified_promise", "prompt_template": 9, "noise": ["story", "tail", "autocap", "no_punct"]}
+{"id": "soup-0039", "category": "refund_delay", "failure_mode": "passive_wait", "prompt_template": 4, "noise": ["tail", "final_punct", "emotion", "typos"]}
+{"id": "soup-0449", "category": "subscription", "failure_mode": "passive_wait", "prompt_template": 10, "noise": ["greeting", "lowercase", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0148", "category": "personal_data", "failure_mode": "polite_deflection", "prompt_template": 11, "noise": ["autocap", "no_punct"]}
+{"id": "soup-0261", "category": "delivery_late", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["tail", "autocap", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0234", "category": "damaged_item", "failure_mode": "generic_instruction", "prompt_template": 7, "noise": ["order_number", "lowercase", "no_punct", "typos"]}
+{"id": "soup-0013", "category": "subscription", "failure_mode": "polite_deflection", "prompt_template": 7, "noise": ["autocap", "final_punct", "emotion"]}
+{"id": "soup-0226", "category": "damaged_item", "failure_mode": "wrong_subcase", "prompt_template": 0, "noise": ["greeting", "lowercase", "final_punct", "typos"]}
+{"id": "soup-0268", "category": "return_request", "failure_mode": "generic_instruction", "prompt_template": 3, "noise": ["greeting", "lowercase", "final_punct", "emotion"]}
+{"id": "soup-0236", "category": "order_cancellation", "failure_mode": "generic_instruction", "prompt_template": 5, "noise": ["story", "tail", "final_punct"]}
+{"id": "soup-0342", "category": "warranty", "failure_mode": "wrong_fact", "prompt_template": 8, "noise": ["greeting", "autocap", "emotion"]}
+{"id": "soup-0221", "category": "missing_item", "failure_mode": "wrong_fact", "prompt_template": 8, "noise": ["greeting", "autocap", "no_punct", "emotion"]}
+{"id": "soup-0428", "category": "warranty", "failure_mode": "unverified_promise", "prompt_template": 6, "noise": ["order_number", "autocap", "emotion"]}
+{"id": "soup-0088", "category": "promo_code_issue", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["order_number", "final_punct"]}
+{"id": "soup-0254", "category": "order_cancellation", "failure_mode": "generic_instruction", "prompt_template": 5, "noise": ["autocap", "final_punct", "no_punct"]}
+{"id": "soup-0273", "category": "order_cancellation", "failure_mode": "generic_instruction", "prompt_template": 2, "noise": ["order_number", "story", "lowercase", "no_space_after_comma"]}
+{"id": "soup-0188", "category": "refund_amount", "failure_mode": "wrong_fact", "prompt_template": 5, "noise": ["order_number", "no_punct"]}
+{"id": "soup-0445", "category": "missing_item", "failure_mode": "generic_instruction", "prompt_template": 6, "noise": ["story", "autocap", "no_punct"]}
+{"id": "soup-0443", "category": "refund_amount", "failure_mode": "polite_deflection", "prompt_template": 2, "noise": ["autocap", "final_punct"]}
+{"id": "soup-0070", "category": "rude_staff", "failure_mode": "unverified_promise", "prompt_template": 0, "noise": ["order_number", "tail", "autocap", "emotion"]}
+{"id": "soup-0392", "category": "damaged_item", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["order_number", "lowercase"]}
+{"id": "soup-0129", "category": "promo_code_issue", "failure_mode": "polite_deflection", "prompt_template": 9, "noise": ["order_number", "autocap", "final_punct", "emotion", "chat_split"]}
+{"id": "soup-0418", "category": "account_access", "failure_mode": "wrong_fact", "prompt_template": 1, "noise": ["greeting", "autocap", "ellipsis", "chat_split"]}
+{"id": "soup-0331", "category": "return_request", "failure_mode": "generic_instruction", "prompt_template": 0, "noise": ["greeting", "lowercase"]}
+{"id": "soup-0103", "category": "subscription", "failure_mode": "partial_resolution", "prompt_template": 8, "noise": ["lowercase", "final_punct", "ellipsis", "grammar"]}
+{"id": "soup-0397", "category": "promo_code_issue", "failure_mode": "unverified_promise", "prompt_template": 2, "noise": ["order_number", "autocap", "final_punct", "no_punct", "chat_split"]}
+{"id": "soup-0367", "category": "missing_item", "failure_mode": "passive_wait", "prompt_template": 10, "noise": ["emotion"]}
+{"id": "soup-0284", "category": "promo_code_issue", "failure_mode": "wrong_fact", "prompt_template": 0, "noise": ["story", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0146", "category": "refund_delay", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["greeting", "autocap"]}
+{"id": "soup-0184", "category": "delivery_tracking", "failure_mode": "unverified_promise", "prompt_template": 10, "noise": ["order_number", "greeting", "autocap"]}
+{"id": "soup-0371", "category": "delivery_tracking", "failure_mode": "generic_instruction", "prompt_template": 10, "noise": ["autocap", "ellipsis", "typos"]}
+{"id": "soup-0099", "category": "payment_failed", "failure_mode": "generic_instruction", "prompt_template": 11, "noise": ["tail", "autocap", "no_space_after_comma", "grammar"]}
+{"id": "soup-0415", "category": "wrong_item", "failure_mode": "wrong_fact", "prompt_template": 0, "noise": ["tail", "lowercase", "final_punct"]}
+{"id": "soup-0451", "category": "account_access", "failure_mode": "partial_resolution", "prompt_template": 4, "noise": ["greeting", "tail", "autocap", "no_punct", "typos"]}
+{"id": "soup-0229", "category": "rude_staff", "failure_mode": "polite_deflection", "prompt_template": 8, "noise": ["story", "autocap", "ellipsis", "emotion"]}
+{"id": "soup-0394", "category": "return_request", "failure_mode": "polite_deflection", "prompt_template": 0, "noise": ["autocap"]}
+{"id": "soup-0027", "category": "missing_item", "failure_mode": "redundant_question", "prompt_template": 4, "noise": ["order_number", "story", "lowercase", "final_punct"]}
+{"id": "soup-0018", "category": "subscription", "failure_mode": "partial_resolution", "prompt_template": 0, "noise": ["autocap", "final_punct", "ellipsis", "typos"]}
+{"id": "soup-0419", "category": "damaged_item", "failure_mode": "wrong_fact", "prompt_template": 12, "noise": ["order_number", "greeting", "autocap", "final_punct", "ellipsis", "no_space_after_comma", "grammar"]}
+{"id": "soup-0179", "category": "rude_staff", "failure_mode": "wrong_subcase", "prompt_template": 6, "noise": ["tail", "autocap", "final_punct"]}
+{"id": "soup-0440", "category": "wrong_item", "failure_mode": "passive_wait", "prompt_template": 9, "noise": ["order_number", "autocap"]}
+{"id": "soup-0296", "category": "delivery_tracking", "failure_mode": "unverified_promise", "prompt_template": 6, "noise": ["autocap"]}
+{"id": "soup-0399", "category": "rude_staff", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["greeting", "autocap", "final_punct"]}
+{"id": "soup-0211", "category": "missing_item", "failure_mode": "polite_deflection", "prompt_template": 9, "noise": ["autocap", "no_punct"]}
+{"id": "soup-0362", "category": "missing_item", "failure_mode": "unverified_promise", "prompt_template": 1, "noise": ["story", "greeting", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0358", "category": "promo_code_issue", "failure_mode": "unverified_promise", "prompt_template": 5, "noise": ["lowercase", "final_punct", "no_punct"]}
+{"id": "soup-0257", "category": "account_access", "failure_mode": "unsafe_data_request", "prompt_template": 12, "noise": ["story", "tail", "autocap"]}
+{"id": "soup-0321", "category": "promo_code_issue", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["tail", "lowercase", "final_punct", "caps"]}
+{"id": "soup-0486", "category": "refund_amount", "failure_mode": "wrong_fact", "prompt_template": 11, "noise": ["order_number", "greeting", "lowercase", "final_punct", "no_punct", "typos"]}
+{"id": "soup-0195", "category": "delivery_tracking", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["order_number", "greeting", "autocap", "final_punct"]}
+{"id": "soup-0182", "category": "delivery_tracking", "failure_mode": "redundant_question", "prompt_template": 12, "noise": ["order_number", "greeting", "lowercase", "final_punct"]}
+{"id": "soup-0037", "category": "delivery_tracking", "failure_mode": "generic_instruction", "prompt_template": 1, "noise": ["autocap", "final_punct", "emotion"]}
+{"id": "soup-0089", "category": "subscription", "failure_mode": "wrong_fact", "prompt_template": 6, "noise": ["lowercase"]}
+{"id": "soup-0173", "category": "missing_item", "failure_mode": "unverified_promise", "prompt_template": 11, "noise": ["autocap", "final_punct", "emotion"]}
+{"id": "soup-0108", "category": "rude_staff", "failure_mode": "polite_deflection", "prompt_template": 11, "noise": ["story", "lowercase", "emotion", "translit"]}
+{"id": "soup-0467", "category": "return_request", "failure_mode": "unverified_promise", "prompt_template": 7, "noise": ["order_number", "autocap"]}
+{"id": "soup-0135", "category": "payment_failed", "failure_mode": "wrong_subcase", "prompt_template": 10, "noise": ["story", "lowercase", "final_punct", "ellipsis", "emotion"]}
+{"id": "soup-0041", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 0, "noise": ["lowercase", "ellipsis", "no_space_after_comma", "chat_split"]}
+{"id": "soup-0122", "category": "payment_failed", "failure_mode": "polite_deflection", "prompt_template": 4, "noise": ["tail", "autocap", "final_punct"]}
+{"id": "soup-0335", "category": "refund_delay", "failure_mode": "polite_deflection", "prompt_template": 8, "noise": ["autocap", "grammar"]}
+{"id": "soup-0465", "category": "personal_data", "failure_mode": "polite_deflection", "prompt_template": 11, "noise": ["greeting", "no_punct"]}
+{"id": "soup-0030", "category": "delivery_late", "failure_mode": "unverified_promise", "prompt_template": 6, "noise": ["order_number", "tail", "autocap", "chat_split"]}
+{"id": "soup-0275", "category": "subscription", "failure_mode": "partial_resolution", "prompt_template": 8, "noise": ["greeting", "lowercase", "no_space_after_comma", "typos"]}
+{"id": "soup-0167", "category": "order_cancellation", "failure_mode": "generic_instruction", "prompt_template": 6, "noise": ["order_number", "autocap"]}
+{"id": "soup-0118", "category": "personal_data", "failure_mode": "wrong_fact", "prompt_template": 6, "noise": ["autocap", "no_space_after_comma"]}
+{"id": "soup-0302", "category": "missing_item", "failure_mode": "generic_instruction", "prompt_template": 2, "noise": ["tail", "autocap", "no_space_after_comma", "chat_split"]}
+{"id": "soup-0066", "category": "return_request", "failure_mode": "generic_instruction", "prompt_template": 11, "noise": ["order_number", "no_space_after_comma", "emotion"]}
+{"id": "soup-0444", "category": "tech_app_crash", "failure_mode": "generic_instruction", "prompt_template": 11, "noise": ["greeting", "tail", "autocap", "final_punct", "grammar"]}
+{"id": "soup-0045", "category": "delivery_tracking", "failure_mode": "polite_deflection", "prompt_template": 2, "noise": ["lowercase", "final_punct"]}
+{"id": "soup-0215", "category": "delivery_late", "failure_mode": "wrong_fact", "prompt_template": 13, "noise": ["story", "greeting", "autocap", "emotion", "grammar"]}
+{"id": "soup-0105", "category": "account_access", "failure_mode": "polite_deflection", "prompt_template": 3, "noise": ["greeting", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0050", "category": "promo_code_issue", "failure_mode": "generic_instruction", "prompt_template": 4, "noise": ["greeting", "tail", "autocap", "final_punct"]}
+{"id": "soup-0033", "category": "damaged_item", "failure_mode": "polite_deflection", "prompt_template": 10, "noise": ["order_number", "story", "tail", "lowercase", "final_punct", "no_punct", "chat_split", "typos"]}
+{"id": "soup-0389", "category": "missing_item", "failure_mode": "wrong_subcase", "prompt_template": 3, "noise": ["order_number", "autocap", "final_punct", "translit"]}
+{"id": "soup-0325", "category": "personal_data", "failure_mode": "wrong_subcase", "prompt_template": 8, "noise": ["greeting", "autocap", "emotion"]}
+{"id": "soup-0327", "category": "refund_delay", "failure_mode": "wrong_subcase", "prompt_template": 10, "noise": ["tail", "final_punct"]}
+{"id": "soup-0301", "category": "damaged_item", "failure_mode": "wrong_subcase", "prompt_template": 14, "noise": ["story", "greeting", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0484", "category": "missing_item", "failure_mode": "wrong_fact", "prompt_template": 1, "noise": ["lowercase", "final_punct", "emotion"]}
+{"id": "soup-0473", "category": "account_access", "failure_mode": "generic_instruction", "prompt_template": 0, "noise": ["tail", "lowercase", "caps"]}
+{"id": "soup-0072", "category": "refund_amount", "failure_mode": "wrong_fact", "prompt_template": 0, "noise": []}
+{"id": "soup-0036", "category": "warranty", "failure_mode": "wrong_fact", "prompt_template": 8, "noise": ["lowercase", "ellipsis"]}
+{"id": "soup-0068", "category": "wrong_item", "failure_mode": "polite_deflection", "prompt_template": 0, "noise": ["greeting", "lowercase", "grammar"]}
+{"id": "soup-0201", "category": "refund_amount", "failure_mode": "passive_wait", "prompt_template": 12, "noise": ["autocap", "final_punct", "no_punct"]}
+{"id": "soup-0359", "category": "warranty", "failure_mode": "polite_deflection", "prompt_template": 6, "noise": ["lowercase", "final_punct"]}
+{"id": "soup-0012", "category": "refund_amount", "failure_mode": "unverified_promise", "prompt_template": 8, "noise": ["autocap", "final_punct", "no_punct", "chat_split"]}
+{"id": "soup-0476", "category": "rude_staff", "failure_mode": "wrong_fact", "prompt_template": 1, "noise": ["emotion"]}
+{"id": "soup-0357", "category": "account_access", "failure_mode": "wrong_fact", "prompt_template": 2, "noise": ["story", "autocap", "no_space_after_comma"]}
+{"id": "soup-0343", "category": "payment_failed", "failure_mode": "unsafe_data_request", "prompt_template": 0, "noise": ["autocap", "no_punct"]}
+{"id": "soup-0046", "category": "tech_app_crash", "failure_mode": "wrong_fact", "prompt_template": 11, "noise": ["tail", "autocap", "no_space_after_comma"]}
+{"id": "soup-0326", "category": "refund_delay", "failure_mode": "unverified_promise", "prompt_template": 14, "noise": ["story", "tail", "lowercase", "final_punct"]}
+{"id": "soup-0130", "category": "promo_code_issue", "failure_mode": "passive_wait", "prompt_template": 6, "noise": ["tail", "autocap", "final_punct", "chat_split"]}
+{"id": "soup-0067", "category": "rude_staff", "failure_mode": "redundant_question", "prompt_template": 0, "noise": ["order_number", "lowercase", "final_punct"]}
+{"id": "soup-0161", "category": "warranty", "failure_mode": "unverified_promise", "prompt_template": 4, "noise": ["autocap", "final_punct", "grammar"]}
+{"id": "soup-0406", "category": "personal_data", "failure_mode": "passive_wait", "prompt_template": 7, "noise": ["autocap", "final_punct", "ellipsis"]}
+{"id": "soup-0350", "category": "promo_code_issue", "failure_mode": "passive_wait", "prompt_template": 1, "noise": ["story", "autocap"]}
+{"id": "soup-0283", "category": "payment_failed", "failure_mode": "wrong_subcase", "prompt_template": 7, "noise": ["story", "greeting", "tail", "autocap", "no_punct", "grammar"]}
+{"id": "soup-0151", "category": "personal_data", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["lowercase"]}
+{"id": "soup-0270", "category": "personal_data", "failure_mode": "generic_instruction", "prompt_template": 12, "noise": ["lowercase", "grammar"]}
+{"id": "soup-0274", "category": "wrong_price", "failure_mode": "wrong_fact", "prompt_template": 5, "noise": ["order_number", "autocap", "no_punct", "emotion"]}
+{"id": "soup-0453", "category": "personal_data", "failure_mode": "wrong_subcase", "prompt_template": 7, "noise": ["greeting", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0500", "category": "wrong_price", "failure_mode": "wrong_fact", "prompt_template": 2, "noise": ["tail", "final_punct"]}
+{"id": "soup-0140", "category": "personal_data", "failure_mode": "generic_instruction", "prompt_template": 12, "noise": ["greeting", "autocap"]}
+{"id": "soup-0303", "category": "rude_staff", "failure_mode": "polite_deflection", "prompt_template": 8, "noise": ["order_number", "autocap", "final_punct", "no_space_after_comma", "emotion", "typos"]}
+{"id": "soup-0438", "category": "refund_delay", "failure_mode": "generic_instruction", "prompt_template": 6, "noise": ["story", "greeting", "autocap"]}
+{"id": "soup-0338", "category": "delivery_tracking", "failure_mode": "wrong_fact", "prompt_template": 11, "noise": ["lowercase", "no_space_after_comma", "emotion"]}
+{"id": "soup-0372", "category": "personal_data", "failure_mode": "unsafe_data_request", "prompt_template": 1, "noise": ["greeting", "autocap", "emotion"]}
+{"id": "soup-0407", "category": "wrong_item", "failure_mode": "generic_instruction", "prompt_template": 13, "noise": ["order_number", "autocap", "final_punct", "no_punct", "caps"]}
+{"id": "soup-0025", "category": "delivery_late", "failure_mode": "passive_wait", "prompt_template": 13, "noise": ["greeting", "final_punct", "ellipsis", "emotion", "chat_split"]}
+{"id": "soup-0160", "category": "warranty", "failure_mode": "wrong_fact", "prompt_template": 9, "noise": ["autocap", "final_punct", "emotion", "typos"]}
+{"id": "soup-0332", "category": "delivery_tracking", "failure_mode": "unverified_promise", "prompt_template": 2, "noise": ["greeting", "autocap", "final_punct"]}
+{"id": "soup-0210", "category": "payment_failed", "failure_mode": "unverified_promise", "prompt_template": 8, "noise": ["autocap", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0411", "category": "refund_delay", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["order_number", "story", "autocap", "final_punct"]}
+{"id": "soup-0200", "category": "promo_code_issue", "failure_mode": "passive_wait", "prompt_template": 2, "noise": ["autocap", "emotion", "typos"]}
+{"id": "soup-0227", "category": "wrong_price", "failure_mode": "passive_wait", "prompt_template": 0, "noise": ["story", "tail", "lowercase", "final_punct", "ellipsis"]}
+{"id": "soup-0219", "category": "wrong_price", "failure_mode": "redundant_question", "prompt_template": 7, "noise": ["order_number", "tail", "autocap", "final_punct", "ellipsis"]}
+{"id": "soup-0136", "category": "wrong_item", "failure_mode": "polite_deflection", "prompt_template": 4, "noise": ["story", "autocap", "final_punct", "chat_split"]}
+{"id": "soup-0101", "category": "warranty", "failure_mode": "polite_deflection", "prompt_template": 1, "noise": ["autocap", "no_space_after_comma"]}
+{"id": "soup-0289", "category": "duplicate_charge", "failure_mode": "wrong_fact", "prompt_template": 1, "noise": ["story", "greeting", "lowercase", "final_punct", "emotion"]}
+{"id": "soup-0379", "category": "return_request", "failure_mode": "passive_wait", "prompt_template": 12, "noise": ["order_number", "autocap", "no_space_after_comma", "emotion"]}
+{"id": "soup-0391", "category": "refund_amount", "failure_mode": "polite_deflection", "prompt_template": 1, "noise": ["order_number", "autocap", "final_punct", "emotion", "chat_split"]}
+{"id": "soup-0004", "category": "subscription", "failure_mode": "passive_wait", "prompt_template": 10, "noise": ["autocap", "no_space_after_comma"]}
+{"id": "soup-0203", "category": "refund_amount", "failure_mode": "polite_deflection", "prompt_template": 0, "noise": ["autocap", "final_punct", "emotion"]}
+{"id": "soup-0314", "category": "wrong_item", "failure_mode": "polite_deflection", "prompt_template": 9, "noise": ["story", "tail", "autocap", "final_punct"]}
+{"id": "soup-0414", "category": "delivery_late", "failure_mode": "polite_deflection", "prompt_template": 3, "noise": ["lowercase"]}
+{"id": "soup-0117", "category": "wrong_price", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["order_number", "tail", "autocap", "final_punct", "no_space_after_comma", "emotion", "chat_split", "typos"]}
+{"id": "soup-0124", "category": "order_cancellation", "failure_mode": "unverified_promise", "prompt_template": 4, "noise": ["story", "lowercase", "final_punct"]}
+{"id": "soup-0433", "category": "payment_failed", "failure_mode": "wrong_subcase", "prompt_template": 7, "noise": ["story", "autocap"]}
+{"id": "soup-0416", "category": "tech_app_crash", "failure_mode": "generic_instruction", "prompt_template": 2, "noise": ["tail", "lowercase", "emotion"]}
+{"id": "soup-0228", "category": "damaged_item", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["order_number", "story", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0191", "category": "duplicate_charge", "failure_mode": "polite_deflection", "prompt_template": 12, "noise": ["greeting", "lowercase", "final_punct", "emotion", "typos"]}
+{"id": "soup-0306", "category": "tech_app_crash", "failure_mode": "redundant_question", "prompt_template": 13, "noise": ["story", "lowercase"]}
+{"id": "soup-0479", "category": "missing_item", "failure_mode": "wrong_fact", "prompt_template": 4, "noise": ["lowercase"]}
+{"id": "soup-0174", "category": "order_cancellation", "failure_mode": "wrong_subcase", "prompt_template": 7, "noise": ["order_number", "caps"]}
+{"id": "soup-0431", "category": "refund_amount", "failure_mode": "unverified_promise", "prompt_template": 10, "noise": ["autocap"]}
+{"id": "soup-0110", "category": "tech_app_crash", "failure_mode": "passive_wait", "prompt_template": 10, "noise": ["story", "lowercase", "final_punct"]}
+{"id": "soup-0127", "category": "return_request", "failure_mode": "passive_wait", "prompt_template": 12, "noise": []}
+{"id": "soup-0198", "category": "order_cancellation", "failure_mode": "generic_instruction", "prompt_template": 2, "noise": ["order_number", "final_punct", "emotion"]}
+{"id": "soup-0063", "category": "refund_delay", "failure_mode": "passive_wait", "prompt_template": 14, "noise": ["autocap", "grammar"]}
+{"id": "soup-0144", "category": "wrong_item", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["story", "tail", "lowercase", "no_punct", "emotion"]}
+{"id": "soup-0074", "category": "order_cancellation", "failure_mode": "generic_instruction", "prompt_template": 0, "noise": ["order_number", "lowercase"]}
+{"id": "soup-0232", "category": "order_cancellation", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["order_number", "tail", "autocap"]}
+{"id": "soup-0317", "category": "rude_staff", "failure_mode": "passive_wait", "prompt_template": 12, "noise": ["story", "greeting", "tail", "autocap", "final_punct", "grammar"]}
+{"id": "soup-0175", "category": "payment_failed", "failure_mode": "passive_wait", "prompt_template": 12, "noise": ["story", "tail"]}
+{"id": "soup-0218", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 9, "noise": ["greeting", "autocap", "final_punct", "chat_split"]}
+{"id": "soup-0452", "category": "delivery_address", "failure_mode": "generic_instruction", "prompt_template": 8, "noise": ["order_number", "autocap", "no_space_after_comma", "chat_split"]}
+{"id": "soup-0192", "category": "duplicate_charge", "failure_mode": "passive_wait", "prompt_template": 11, "noise": ["story", "lowercase", "final_punct", "emotion", "caps"]}
+{"id": "soup-0154", "category": "payment_failed", "failure_mode": "wrong_subcase", "prompt_template": 1, "noise": ["story", "tail", "autocap", "no_space_after_comma", "emotion"]}
+{"id": "soup-0098", "category": "missing_item", "failure_mode": "unverified_promise", "prompt_template": 3, "noise": ["autocap"]}
+{"id": "soup-0497", "category": "return_request", "failure_mode": "wrong_fact", "prompt_template": 1, "noise": ["order_number", "tail", "lowercase"]}
+{"id": "soup-0009", "category": "tech_app_crash", "failure_mode": "generic_instruction", "prompt_template": 1, "noise": ["lowercase", "final_punct", "ellipsis", "no_space_after_comma"]}
+{"id": "soup-0463", "category": "rude_staff", "failure_mode": "wrong_subcase", "prompt_template": 2, "noise": ["autocap", "emotion"]}
+{"id": "soup-0285", "category": "return_request", "failure_mode": "generic_instruction", "prompt_template": 11, "noise": ["lowercase"]}
+{"id": "soup-0432", "category": "tech_app_crash", "failure_mode": "polite_deflection", "prompt_template": 4, "noise": ["autocap", "final_punct", "no_punct"]}
+{"id": "soup-0279", "category": "account_access", "failure_mode": "wrong_fact", "prompt_template": 9, "noise": ["final_punct", "emotion"]}
+{"id": "soup-0413", "category": "payment_failed", "failure_mode": "wrong_fact", "prompt_template": 2, "noise": ["autocap", "emotion"]}
+{"id": "soup-0073", "category": "payment_failed", "failure_mode": "passive_wait", "prompt_template": 8, "noise": ["story", "tail", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0220", "category": "wrong_item", "failure_mode": "unverified_promise", "prompt_template": 5, "noise": ["order_number", "lowercase", "final_punct"]}
+{"id": "soup-0080", "category": "refund_amount", "failure_mode": "unverified_promise", "prompt_template": 8, "noise": ["order_number", "autocap", "final_punct", "emotion", "chat_split"]}
+{"id": "soup-0096", "category": "damaged_item", "failure_mode": "polite_deflection", "prompt_template": 12, "noise": ["order_number", "emotion"]}
+{"id": "soup-0180", "category": "promo_code_issue", "failure_mode": "generic_instruction", "prompt_template": 1, "noise": ["lowercase", "chat_split"]}
+{"id": "soup-0056", "category": "missing_item", "failure_mode": "generic_instruction", "prompt_template": 6, "noise": ["greeting", "lowercase", "final_punct"]}
+{"id": "soup-0087", "category": "refund_delay", "failure_mode": "generic_instruction", "prompt_template": 9, "noise": ["order_number", "tail", "autocap", "emotion"]}
+{"id": "soup-0454", "category": "account_access", "failure_mode": "partial_resolution", "prompt_template": 11, "noise": ["story", "tail", "autocap", "final_punct", "ellipsis", "emotion"]}
+{"id": "soup-0437", "category": "delivery_late", "failure_mode": "generic_instruction", "prompt_template": 3, "noise": ["tail", "lowercase", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0430", "category": "wrong_item", "failure_mode": "generic_instruction", "prompt_template": 11, "noise": ["autocap", "emotion"]}
+{"id": "soup-0092", "category": "damaged_item", "failure_mode": "wrong_fact", "prompt_template": 11, "noise": ["order_number", "tail", "final_punct", "chat_split"]}
+{"id": "soup-0029", "category": "missing_item", "failure_mode": "polite_deflection", "prompt_template": 2, "noise": ["autocap", "no_punct"]}
+{"id": "soup-0035", "category": "wrong_item", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["story", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0482", "category": "delivery_late", "failure_mode": "unverified_promise", "prompt_template": 4, "noise": ["order_number", "story", "tail", "lowercase", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0128", "category": "promo_code_issue", "failure_mode": "passive_wait", "prompt_template": 13, "noise": ["order_number", "autocap"]}
+{"id": "soup-0166", "category": "damaged_item", "failure_mode": "wrong_fact", "prompt_template": 8, "noise": ["autocap", "final_punct", "no_space_after_comma", "chat_split"]}
+{"id": "soup-0378", "category": "payment_failed", "failure_mode": "wrong_subcase", "prompt_template": 1, "noise": ["autocap", "final_punct"]}
+{"id": "soup-0385", "category": "tech_app_crash", "failure_mode": "redundant_question", "prompt_template": 3, "noise": ["story", "greeting", "caps"]}
+{"id": "soup-0308", "category": "wrong_item", "failure_mode": "passive_wait", "prompt_template": 4, "noise": ["lowercase"]}
+{"id": "soup-0239", "category": "duplicate_charge", "failure_mode": "unverified_promise", "prompt_template": 8, "noise": ["order_number", "greeting", "tail", "autocap", "final_punct", "no_punct"]}
+{"id": "soup-0387", "category": "delivery_address", "failure_mode": "wrong_subcase", "prompt_template": 2, "noise": ["order_number"]}
+{"id": "soup-0455", "category": "wrong_price", "failure_mode": "wrong_fact", "prompt_template": 4, "noise": ["story", "lowercase", "emotion", "typos"]}
+{"id": "soup-0185", "category": "damaged_item", "failure_mode": "unverified_promise", "prompt_template": 5, "noise": ["greeting", "lowercase", "final_punct", "chat_split", "typos"]}
+{"id": "soup-0373", "category": "payment_failed", "failure_mode": "wrong_fact", "prompt_template": 0, "noise": ["tail", "lowercase", "no_space_after_comma"]}
+{"id": "soup-0032", "category": "subscription", "failure_mode": "wrong_fact", "prompt_template": 6, "noise": ["greeting", "autocap", "final_punct"]}
+{"id": "soup-0441", "category": "delivery_address", "failure_mode": "generic_instruction", "prompt_template": 0, "noise": ["no_punct", "chat_split"]}
+{"id": "soup-0196", "category": "delivery_tracking", "failure_mode": "passive_wait", "prompt_template": 1, "noise": ["autocap", "grammar"]}
+{"id": "soup-0065", "category": "refund_delay", "failure_mode": "wrong_fact", "prompt_template": 8, "noise": ["tail", "final_punct", "emotion"]}
+{"id": "soup-0214", "category": "damaged_item", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["tail"]}
+{"id": "soup-0450", "category": "account_access", "failure_mode": "unsafe_data_request", "prompt_template": 7, "noise": ["autocap", "no_punct"]}
+{"id": "soup-0031", "category": "delivery_tracking", "failure_mode": "polite_deflection", "prompt_template": 8, "noise": ["lowercase", "final_punct"]}
+{"id": "soup-0152", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 11, "noise": ["greeting", "autocap", "final_punct", "no_punct", "chat_split"]}
+{"id": "soup-0458", "category": "refund_delay", "failure_mode": "passive_wait", "prompt_template": 7, "noise": ["tail", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0429", "category": "duplicate_charge", "failure_mode": "wrong_fact", "prompt_template": 13, "noise": ["tail", "lowercase", "final_punct", "ellipsis", "no_space_after_comma", "chat_split"]}
+{"id": "soup-0491", "category": "tech_app_crash", "failure_mode": "wrong_fact", "prompt_template": 12, "noise": ["tail", "autocap", "final_punct", "no_punct", "caps"]}
+{"id": "soup-0487", "category": "damaged_item", "failure_mode": "wrong_subcase", "prompt_template": 0, "noise": ["autocap", "final_punct", "emotion"]}
+{"id": "soup-0489", "category": "personal_data", "failure_mode": "passive_wait", "prompt_template": 8, "noise": ["lowercase", "no_punct", "chat_split"]}
+{"id": "soup-0348", "category": "tech_app_crash", "failure_mode": "redundant_question", "prompt_template": 10, "noise": ["greeting", "autocap"]}
+{"id": "soup-0375", "category": "personal_data", "failure_mode": "partial_resolution", "prompt_template": 4, "noise": ["greeting", "lowercase", "chat_split", "typos"]}
+{"id": "soup-0240", "category": "delivery_late", "failure_mode": "passive_wait", "prompt_template": 10, "noise": ["autocap", "final_punct", "ellipsis", "emotion"]}
+{"id": "soup-0125", "category": "wrong_item", "failure_mode": "unverified_promise", "prompt_template": 11, "noise": ["story", "tail", "autocap", "final_punct", "no_punct"]}
+{"id": "soup-0081", "category": "personal_data", "failure_mode": "wrong_fact", "prompt_template": 0, "noise": ["greeting", "lowercase", "final_punct", "emotion", "translit"]}
+{"id": "soup-0077", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 6, "noise": ["autocap"]}
+{"id": "soup-0365", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["greeting", "autocap", "final_punct", "grammar"]}
+{"id": "soup-0199", "category": "tech_app_crash", "failure_mode": "wrong_fact", "prompt_template": 8, "noise": ["story", "greeting", "lowercase"]}
+{"id": "soup-0340", "category": "return_request", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["greeting", "autocap", "final_punct"]}
+{"id": "soup-0298", "category": "rude_staff", "failure_mode": "wrong_subcase", "prompt_template": 5, "noise": ["order_number", "tail", "autocap", "final_punct", "emotion", "translit"]}
+{"id": "soup-0412", "category": "promo_code_issue", "failure_mode": "polite_deflection", "prompt_template": 9, "noise": ["greeting", "no_space_after_comma", "emotion"]}
+{"id": "soup-0410", "category": "return_request", "failure_mode": "polite_deflection", "prompt_template": 2, "noise": ["order_number", "lowercase"]}
+{"id": "soup-0178", "category": "refund_delay", "failure_mode": "wrong_fact", "prompt_template": 13, "noise": ["story", "tail", "autocap", "emotion"]}
+{"id": "soup-0230", "category": "wrong_item", "failure_mode": "polite_deflection", "prompt_template": 8, "noise": ["order_number", "autocap", "no_punct"]}
+{"id": "soup-0187", "category": "delivery_late", "failure_mode": "partial_resolution", "prompt_template": 12, "noise": ["order_number", "story", "greeting", "final_punct"]}
+{"id": "soup-0026", "category": "refund_amount", "failure_mode": "wrong_subcase", "prompt_template": 11, "noise": ["translit"]}
+{"id": "soup-0398", "category": "missing_item", "failure_mode": "wrong_fact", "prompt_template": 12, "noise": ["autocap", "no_punct", "typos"]}
+{"id": "soup-0055", "category": "delivery_tracking", "failure_mode": "unverified_promise", "prompt_template": 0, "noise": ["autocap", "final_punct", "no_punct"]}
+{"id": "soup-0462", "category": "wrong_price", "failure_mode": "wrong_fact", "prompt_template": 12, "noise": ["greeting", "lowercase", "typos"]}
+{"id": "soup-0483", "category": "delivery_address", "failure_mode": "redundant_question", "prompt_template": 11, "noise": ["order_number", "autocap"]}
+{"id": "soup-0251", "category": "order_cancellation", "failure_mode": "wrong_subcase", "prompt_template": 11, "noise": ["greeting", "autocap", "final_punct", "no_punct"]}
+{"id": "soup-0324", "category": "delivery_late", "failure_mode": "generic_instruction", "prompt_template": 6, "noise": ["story", "lowercase", "final_punct", "emotion"]}
+{"id": "soup-0249", "category": "account_access", "failure_mode": "wrong_subcase", "prompt_template": 2, "noise": ["lowercase", "final_punct"]}
+{"id": "soup-0278", "category": "warranty", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["order_number", "autocap", "translit"]}
+{"id": "soup-0423", "category": "wrong_price", "failure_mode": "wrong_subcase", "prompt_template": 10, "noise": ["greeting", "autocap", "final_punct", "no_punct"]}
+{"id": "soup-0170", "category": "delivery_tracking", "failure_mode": "generic_instruction", "prompt_template": 3, "noise": ["greeting", "autocap", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0193", "category": "subscription", "failure_mode": "wrong_fact", "prompt_template": 9, "noise": ["greeting", "autocap", "final_punct", "emotion", "grammar"]}
+{"id": "soup-0059", "category": "wrong_price", "failure_mode": "generic_instruction", "prompt_template": 0, "noise": ["tail", "autocap"]}
+{"id": "soup-0106", "category": "wrong_price", "failure_mode": "passive_wait", "prompt_template": 13, "noise": ["autocap", "no_space_after_comma"]}
+{"id": "soup-0315", "category": "order_cancellation", "failure_mode": "wrong_fact", "prompt_template": 12, "noise": ["lowercase", "final_punct", "no_space_after_comma", "chat_split"]}
+{"id": "soup-0017", "category": "promo_code_issue", "failure_mode": "unverified_promise", "prompt_template": 4, "noise": ["order_number", "story", "autocap", "final_punct"]}
+{"id": "soup-0304", "category": "wrong_price", "failure_mode": "wrong_fact", "prompt_template": 12, "noise": ["greeting", "autocap", "ellipsis", "no_space_after_comma", "emotion"]}
+{"id": "soup-0142", "category": "damaged_item", "failure_mode": "unverified_promise", "prompt_template": 3, "noise": ["story", "greeting", "autocap", "final_punct"]}
+{"id": "soup-0299", "category": "wrong_item", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["story", "greeting"]}
+{"id": "soup-0320", "category": "payment_failed", "failure_mode": "wrong_fact", "prompt_template": 2, "noise": ["story", "tail", "autocap", "final_punct"]}
+{"id": "soup-0217", "category": "order_cancellation", "failure_mode": "wrong_fact", "prompt_template": 12, "noise": ["tail", "lowercase", "final_punct"]}
+{"id": "soup-0495", "category": "delivery_late", "failure_mode": "passive_wait", "prompt_template": 7, "noise": ["order_number"]}
+{"id": "soup-0043", "category": "warranty", "failure_mode": "redundant_question", "prompt_template": 0, "noise": ["order_number", "final_punct"]}
+{"id": "soup-0007", "category": "warranty", "failure_mode": "generic_instruction", "prompt_template": 4, "noise": ["lowercase", "final_punct", "chat_split"]}
+{"id": "soup-0208", "category": "personal_data", "failure_mode": "unsafe_data_request", "prompt_template": 3, "noise": ["greeting", "lowercase"]}
+{"id": "soup-0008", "category": "payment_failed", "failure_mode": "wrong_subcase", "prompt_template": 9, "noise": ["autocap"]}
+{"id": "soup-0244", "category": "subscription", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["greeting", "lowercase", "final_punct", "emotion"]}
+{"id": "soup-0417", "category": "subscription", "failure_mode": "wrong_fact", "prompt_template": 12, "noise": ["final_punct", "no_space_after_comma"]}
+{"id": "soup-0034", "category": "account_access", "failure_mode": "partial_resolution", "prompt_template": 4, "noise": ["autocap", "chat_split"]}
+{"id": "soup-0356", "category": "return_request", "failure_mode": "wrong_fact", "prompt_template": 5, "noise": ["order_number", "greeting", "autocap", "final_punct"]}
+{"id": "soup-0060", "category": "subscription", "failure_mode": "generic_instruction", "prompt_template": 2, "noise": ["lowercase"]}
+{"id": "soup-0384", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 5, "noise": ["order_number", "greeting", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0233", "category": "delivery_address", "failure_mode": "wrong_fact", "prompt_template": 7, "noise": ["order_number", "lowercase", "emotion", "typos"]}
+{"id": "soup-0330", "category": "refund_amount", "failure_mode": "unverified_promise", "prompt_template": 10, "noise": ["order_number", "autocap", "no_punct"]}
+{"id": "soup-0197", "category": "account_access", "failure_mode": "generic_instruction", "prompt_template": 0, "noise": ["story", "tail", "autocap"]}
+{"id": "soup-0137", "category": "missing_item", "failure_mode": "wrong_fact", "prompt_template": 8, "noise": ["lowercase", "no_punct"]}
+{"id": "soup-0485", "category": "delivery_late", "failure_mode": "passive_wait", "prompt_template": 4, "noise": ["autocap", "grammar"]}
+{"id": "soup-0276", "category": "return_request", "failure_mode": "polite_deflection", "prompt_template": 2, "noise": ["order_number", "tail", "autocap", "final_punct", "ellipsis", "chat_split"]}
+{"id": "soup-0311", "category": "duplicate_charge", "failure_mode": "unverified_promise", "prompt_template": 6, "noise": ["autocap", "no_space_after_comma", "emotion", "caps"]}
+{"id": "soup-0120", "category": "order_cancellation", "failure_mode": "wrong_subcase", "prompt_template": 6, "noise": ["order_number", "tail", "lowercase"]}
+{"id": "soup-0499", "category": "tech_app_crash", "failure_mode": "passive_wait", "prompt_template": 12, "noise": ["greeting", "tail", "autocap", "final_punct", "no_space_after_comma", "emotion"]}
+{"id": "soup-0145", "category": "rude_staff", "failure_mode": "passive_wait", "prompt_template": 10, "noise": ["story", "lowercase", "final_punct", "emotion", "chat_split"]}
+{"id": "soup-0119", "category": "personal_data", "failure_mode": "wrong_subcase", "prompt_template": 9, "noise": ["greeting", "lowercase", "final_punct", "no_space_after_comma", "emotion"]}
+{"id": "soup-0109", "category": "delivery_late", "failure_mode": "partial_resolution", "prompt_template": 12, "noise": ["autocap", "emotion"]}
+{"id": "soup-0336", "category": "personal_data", "failure_mode": "unsafe_data_request", "prompt_template": 2, "noise": ["greeting", "autocap"]}
+{"id": "soup-0477", "category": "missing_item", "failure_mode": "unverified_promise", "prompt_template": 5, "noise": ["tail", "autocap"]}
+{"id": "soup-0016", "category": "refund_amount", "failure_mode": "passive_wait", "prompt_template": 12, "noise": ["order_number", "lowercase", "ellipsis", "emotion"]}
+{"id": "soup-0366", "category": "tech_app_crash", "failure_mode": "unverified_promise", "prompt_template": 8, "noise": ["autocap", "final_punct", "no_space_after_comma", "translit"]}
+{"id": "soup-0123", "category": "damaged_item", "failure_mode": "wrong_fact", "prompt_template": 11, "noise": ["lowercase", "no_punct", "typos"]}
+{"id": "soup-0071", "category": "return_request", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["order_number", "greeting", "autocap", "final_punct", "caps"]}
+{"id": "soup-0044", "category": "account_access", "failure_mode": "unsafe_data_request", "prompt_template": 10, "noise": ["tail", "autocap", "no_space_after_comma"]}
+{"id": "soup-0052", "category": "return_request", "failure_mode": "wrong_fact", "prompt_template": 6, "noise": ["order_number", "lowercase", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0242", "category": "subscription", "failure_mode": "wrong_fact", "prompt_template": 0, "noise": ["greeting", "autocap", "final_punct", "chat_split", "typos"]}
+{"id": "soup-0347", "category": "subscription", "failure_mode": "wrong_fact", "prompt_template": 9, "noise": ["autocap", "final_punct"]}
+{"id": "soup-0090", "category": "wrong_price", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["greeting", "autocap", "final_punct", "no_space_after_comma", "emotion"]}
+{"id": "soup-0061", "category": "delivery_late", "failure_mode": "wrong_fact", "prompt_template": 14, "noise": ["autocap", "final_punct", "no_space_after_comma", "chat_split"]}
+{"id": "soup-0005", "category": "payment_failed", "failure_mode": "wrong_fact", "prompt_template": 9, "noise": ["tail", "lowercase", "final_punct", "no_punct"]}
+{"id": "soup-0345", "category": "refund_delay", "failure_mode": "generic_instruction", "prompt_template": 4, "noise": ["tail", "autocap", "no_punct", "emotion"]}
+{"id": "soup-0448", "category": "tech_app_crash", "failure_mode": "passive_wait", "prompt_template": 13, "noise": ["greeting", "tail", "autocap", "final_punct"]}
+{"id": "soup-0425", "category": "delivery_tracking", "failure_mode": "polite_deflection", "prompt_template": 5, "noise": ["autocap", "no_punct"]}
+{"id": "soup-0252", "category": "return_request", "failure_mode": "unverified_promise", "prompt_template": 7, "noise": ["emotion", "caps"]}
+{"id": "soup-0121", "category": "refund_delay", "failure_mode": "polite_deflection", "prompt_template": 7, "noise": ["story", "lowercase", "final_punct"]}
+{"id": "soup-0202", "category": "duplicate_charge", "failure_mode": "passive_wait", "prompt_template": 11, "noise": ["story", "tail", "autocap"]}
+{"id": "soup-0287", "category": "refund_amount", "failure_mode": "wrong_fact", "prompt_template": 5, "noise": ["greeting", "lowercase", "no_space_after_comma"]}
+{"id": "soup-0047", "category": "refund_delay", "failure_mode": "unverified_promise", "prompt_template": 6, "noise": ["story", "tail", "autocap"]}
+{"id": "soup-0334", "category": "delivery_address", "failure_mode": "passive_wait", "prompt_template": 2, "noise": ["order_number", "autocap", "no_punct"]}
+{"id": "soup-0172", "category": "payment_failed", "failure_mode": "generic_instruction", "prompt_template": 11, "noise": ["autocap"]}
+{"id": "soup-0312", "category": "missing_item", "failure_mode": "generic_instruction", "prompt_template": 5, "noise": ["order_number", "story", "autocap", "final_punct", "ellipsis", "typos"]}
+{"id": "soup-0132", "category": "delivery_address", "failure_mode": "generic_instruction", "prompt_template": 1, "noise": ["order_number", "autocap", "final_punct", "chat_split"]}
+{"id": "soup-0405", "category": "personal_data", "failure_mode": "wrong_subcase", "prompt_template": 9, "noise": ["no_punct"]}
+{"id": "soup-0300", "category": "wrong_item", "failure_mode": "wrong_fact", "prompt_template": 1, "noise": ["greeting", "tail", "autocap", "grammar"]}
+{"id": "soup-0209", "category": "account_access", "failure_mode": "unsafe_data_request", "prompt_template": 8, "noise": ["lowercase", "no_space_after_comma"]}
+{"id": "soup-0022", "category": "order_cancellation", "failure_mode": "generic_instruction", "prompt_template": 8, "noise": ["greeting", "autocap", "no_space_after_comma"]}
+{"id": "soup-0339", "category": "payment_failed", "failure_mode": "generic_instruction", "prompt_template": 10, "noise": ["lowercase", "final_punct"]}
+{"id": "soup-0165", "category": "tech_app_crash", "failure_mode": "polite_deflection", "prompt_template": 4, "noise": ["tail", "autocap", "final_punct"]}
+{"id": "soup-0248", "category": "wrong_item", "failure_mode": "generic_instruction", "prompt_template": 13, "noise": ["story", "autocap", "final_punct"]}
+{"id": "soup-0383", "category": "wrong_item", "failure_mode": "wrong_fact", "prompt_template": 1, "noise": ["order_number", "lowercase", "no_punct", "caps"]}
+{"id": "soup-0442", "category": "refund_delay", "failure_mode": "wrong_fact", "prompt_template": 0, "noise": ["greeting", "lowercase", "emotion"]}
+{"id": "soup-0382", "category": "damaged_item", "failure_mode": "wrong_fact", "prompt_template": 8, "noise": ["no_punct", "chat_split"]}
+{"id": "soup-0291", "category": "return_request", "failure_mode": "wrong_fact", "prompt_template": 10, "noise": ["lowercase", "final_punct", "typos"]}
+{"id": "soup-0409", "category": "duplicate_charge", "failure_mode": "unverified_promise", "prompt_template": 12, "noise": ["order_number", "tail", "final_punct"]}
+{"id": "soup-0262", "category": "damaged_item", "failure_mode": "polite_deflection", "prompt_template": 9, "noise": ["order_number", "story", "tail", "autocap", "final_punct", "typos"]}
+{"id": "soup-0363", "category": "duplicate_charge", "failure_mode": "passive_wait", "prompt_template": 1, "noise": []}
+{"id": "soup-0328", "category": "rude_staff", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["autocap"]}
+{"id": "soup-0177", "category": "refund_amount", "failure_mode": "polite_deflection", "prompt_template": 1, "noise": ["autocap", "typos"]}
+{"id": "soup-0354", "category": "warranty", "failure_mode": "unverified_promise", "prompt_template": 0, "noise": ["lowercase", "no_space_after_comma", "emotion", "typos"]}
+{"id": "soup-0085", "category": "duplicate_charge", "failure_mode": "passive_wait", "prompt_template": 4, "noise": ["greeting", "tail", "lowercase", "final_punct"]}
+{"id": "soup-0400", "category": "tech_app_crash", "failure_mode": "unverified_promise", "prompt_template": 3, "noise": ["story", "greeting", "autocap", "grammar"]}
+{"id": "soup-0083", "category": "refund_amount", "failure_mode": "wrong_fact", "prompt_template": 3, "noise": ["order_number", "autocap", "final_punct", "no_punct", "chat_split"]}
+{"id": "soup-0259", "category": "return_request", "failure_mode": "polite_deflection", "prompt_template": 1, "noise": ["lowercase", "final_punct", "emotion"]}
+{"id": "soup-0493", "category": "refund_delay", "failure_mode": "passive_wait", "prompt_template": 3, "noise": ["order_number", "autocap", "final_punct", "no_space_after_comma"]}
+{"id": "soup-0341", "category": "damaged_item", "failure_mode": "unverified_promise", "prompt_template": 5, "noise": ["story", "autocap", "ellipsis", "no_punct"]}
+{"id": "soup-0143", "category": "rude_staff", "failure_mode": "generic_instruction", "prompt_template": 1, "noise": ["story", "autocap", "no_space_after_comma"]}
+{"id": "soup-0470", "category": "wrong_price", "failure_mode": "generic_instruction", "prompt_template": 8, "noise": ["order_number", "autocap", "final_punct"]}
+{"id": "soup-0294", "category": "delivery_address", "failure_mode": "redundant_question", "prompt_template": 12, "noise": ["order_number", "chat_split", "caps"]}
+{"id": "soup-0280", "category": "account_access", "failure_mode": "generic_instruction", "prompt_template": 12, "noise": ["autocap", "grammar"]}
+{"id": "soup-0461", "category": "order_cancellation", "failure_mode": "redundant_question", "prompt_template": 3, "noise": ["order_number", "greeting", "tail", "no_space_after_comma", "emotion", "chat_split"]}
+{"id": "soup-0408", "category": "refund_delay", "failure_mode": "wrong_fact", "prompt_template": 0, "noise": ["tail", "lowercase", "final_punct", "emotion"]}
+{"id": "soup-0086", "category": "delivery_tracking", "failure_mode": "wrong_subcase", "prompt_template": 4, "noise": ["order_number", "lowercase"]}
+{"id": "soup-0162", "category": "delivery_tracking", "failure_mode": "wrong_fact", "prompt_template": 12, "noise": ["greeting", "autocap", "final_punct"]}
+{"id": "soup-0269", "category": "refund_delay", "failure_mode": "wrong_fact", "prompt_template": 13, "noise": ["story", "lowercase", "ellipsis"]}
+{"id": "soup-0156", "category": "wrong_price", "failure_mode": "wrong_fact", "prompt_template": 4, "noise": ["lowercase", "final_punct", "no_punct"]}
+{"id": "soup-0351", "category": "delivery_tracking", "failure_mode": "passive_wait", "prompt_template": 5, "noise": ["order_number", "autocap", "no_punct"]}
+{"id": "soup-0104", "category": "wrong_item", "failure_mode": "wrong_subcase", "prompt_template": 10, "noise": ["lowercase", "final_punct"]}
+{"id": "soup-0475", "category": "personal_data", "failure_mode": "unsafe_data_request", "prompt_template": 1, "noise": ["no_space_after_comma", "emotion", "caps"]}
+{"id": "soup-0111", "category": "delivery_tracking", "failure_mode": "polite_deflection", "prompt_template": 11, "noise": ["greeting", "lowercase"]}
+{"id": "soup-0380", "category": "duplicate_charge", "failure_mode": "wrong_fact", "prompt_template": 5, "noise": ["greeting", "autocap"]}
+{"id": "soup-0019", "category": "promo_code_issue", "failure_mode": "wrong_fact", "prompt_template": 8, "noise": ["lowercase", "emotion"]}
+{"id": "soup-0097", "category": "account_access", "failure_mode": "polite_deflection", "prompt_template": 3, "noise": ["tail", "autocap"]}
+{"id": "soup-0048", "category": "wrong_price", "failure_mode": "generic_instruction", "prompt_template": 11, "noise": ["order_number", "tail", "lowercase"]}
+{"id": "soup-0010", "category": "delivery_late", "failure_mode": "polite_deflection", "prompt_template": 8, "noise": ["story", "tail", "lowercase", "final_punct"]}
+{"id": "soup-0256", "category": "delivery_late", "failure_mode": "generic_instruction", "prompt_template": 1, "noise": ["lowercase"]}
+{"id": "soup-0282", "category": "rude_staff", "failure_mode": "redundant_question", "prompt_template": 11, "noise": ["order_number", "autocap", "final_punct"]}
+{"id": "soup-0011", "category": "promo_code_issue", "failure_mode": "generic_instruction", "prompt_template": 13, "noise": ["lowercase"]}
+{"id": "soup-0403", "category": "payment_failed", "failure_mode": "wrong_subcase", "prompt_template": 5, "noise": ["story", "autocap", "final_punct", "emotion"]}
+{"id": "soup-0368", "category": "personal_data", "failure_mode": "partial_resolution", "prompt_template": 4, "noise": ["greeting", "autocap"]}
+{"id": "soup-0468", "category": "account_access", "failure_mode": "polite_deflection", "prompt_template": 6, "noise": ["greeting", "lowercase"]}
+{"id": "soup-0115", "category": "warranty", "failure_mode": "wrong_subcase", "prompt_template": 3, "noise": ["autocap"]}
+{"id": "soup-0426", "category": "duplicate_charge", "failure_mode": "passive_wait", "prompt_template": 6, "noise": ["order_number", "no_punct"]}
+{"id": "soup-0255", "category": "refund_amount", "failure_mode": "polite_deflection", "prompt_template": 4, "noise": ["autocap"]}
+{"id": "soup-0307", "category": "delivery_late", "failure_mode": "generic_instruction", "prompt_template": 1, "noise": ["story", "lowercase", "final_punct", "no_punct", "typos"]}
+{"id": "soup-0353", "category": "rude_staff", "failure_mode": "redundant_question", "prompt_template": 5, "noise": ["order_number", "autocap", "no_space_after_comma", "emotion"]}

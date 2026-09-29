@@ -1,0 +1,15 @@
+# large / regenerable
+reference_data/
+selftest_adapter_*/
+out-*/
+adapters/
+*.safetensors
+__pycache__/
+.ipynb_checkpoints/
+
+# private / not ours to publish
+souprask.docx
+*.v1_backup.py
+
+# OS
+.DS_Store
