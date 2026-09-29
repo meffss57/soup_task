@@ -1,0 +1,24 @@
+{
+  "time": "2026-09-29T16:03:18",
+  "python": "3.13.15",
+  "soup_cli": "0.75.1",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "transformers": "5.16.1",
+  "peft": "0.20.0",
+  "trl": "0.29.1",
+  "bitsandbytes": "0.50.2",
+  "gpu": "Tesla T4",
+  "capability": [
+    7,
+    5
+  ],
+  "vram_total_GB": 15.637086208,
+  "bf16_incl_emulation": true,
+  "bf16_in_hardware": false,
+  "soup_precision": {
+    "bf16": false,
+    "fp16": true
+  },
+  "host_ram_GB": 13.605830656
+}

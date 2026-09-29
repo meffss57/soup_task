@@ -1,0 +1,75 @@
+===== 2026-09-29T09:42:34 $ python memory_budget.py --out logs/memory_budget_predicted.json (exit 0)
+{
+  "typical": {
+    "shape": {
+      "batch": 4,
+      "rows": 8,
+      "seq": 200,
+      "vocab": 151936,
+      "layers": 28
+    },
+    "params": {
+      "per_layer": 46792704,
+      "lora_total": 18464768,
+      "base_total_approx": 1543569408
+    },
+    "items_GB": {
+      "streamed_layer_buffers": 0.187,
+      "embedding_(+tied_head)": 0.467,
+      "lora_params+grads+adam": 0.295,
+      "lora_ref_copy": 0.074,
+      "activations_saved": 0.138,
+      "activations_recompute": 0.106
+    },
+    "logits_GB": {
+      "low_4B": 0.972,
+      "high_14B": 3.403
+    },
+    "predicted_allocated_GB": {
+      "low": 2.24,
+      "high": 4.67
+    },
+    "predicted_nvidia_smi_GB": {
+      "low": 2.64,
+      "high": 5.07
+    },
+    "resident_equivalent_weights_GB": 3.09
+  },
+  "worst": {
+    "shape": {
+      "batch": 4,
+      "rows": 8,
+      "seq": 261,
+      "vocab": 151936,
+      "layers": 28
+    },
+    "params": {
+      "per_layer": 46792704,
+      "lora_total": 18464768,
+      "base_total_approx": 1543569408
+    },
+    "items_GB": {
+      "streamed_layer_buffers": 0.187,
+      "embedding_(+tied_head)": 0.467,
+      "lora_params+grads+adam": 0.295,
+      "lora_ref_copy": 0.074,
+      "activations_saved": 0.18,
+      "activations_recompute": 0.138
+    },
+    "logits_GB": {
+      "low_4B": 1.269,
+      "high_14B": 4.441
+    },
+    "predicted_allocated_GB": {
+      "low": 2.61,
+      "high": 5.78
+    },
+    "predicted_nvidia_smi_GB": {
+      "low": 3.01,
+      "high": 6.18
+    },
+    "resident_equivalent_weights_GB": 3.09
+  },
+  "model": "Qwen/Qwen2.5-1.5B-Instruct"
+}
+

@@ -1,0 +1,1 @@
+[2026-09-29T16:18:06] parity (forward, real Russian ticket): {'dtype': 'float16', 'adapter_tensors': 392, 'results': [{'input': 'chosen', 'seq_len': 244, 'max_abs_diff': 0.0, 'bit_exact': True}, {'input': 'rejected', 'seq_len': 166, 'max_abs_diff': 0.0, 'bit_exact': True}], 'all_bit_exact': True, 'peak_GB': 4.494562816}

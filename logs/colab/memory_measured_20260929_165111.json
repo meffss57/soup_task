@@ -1,0 +1,16 @@
+{
+  "max_allocated_GB": 6.559330304,
+  "max_reserved_GB": 15.133048832,
+  "after_setup": {
+    "alloc_GB": 0.811098112,
+    "max_GB": 0.811098112
+  },
+  "result": {
+    "initial_loss": 0.6931471824645996,
+    "final_loss": 0.310870885848999,
+    "duration": "7m",
+    "duration_secs": 437.0548574924469,
+    "output_dir": "/content/out-dpo-1.5b",
+    "total_steps": 100
+  }
+}

@@ -1,0 +1,38 @@
+[2026-09-29T09:19:50] session start, RUN_TAG=20260929_091950, cwd=/content/drive/MyDrive/soup_project
+[2026-09-29T09:25:38] $ soup data lint data/dpo_train.jsonl --format dpo -o logs/lint_train.json  -> logs/data_checks_20260929_091950.txt
+[2026-09-29T09:25:40] $ soup data lint data/dpo_eval.jsonl --format dpo -o logs/lint_eval.json  -> logs/data_checks_20260929_091950.txt
+[2026-09-29T09:26:08] $ soup doctor  -> logs/soup_doctor_20260929_091950.txt
+[2026-09-29T09:26:53] $ python memory_budget.py --out logs/memory_budget_predicted.json  -> logs/memory_budget_20260929_091950.txt
+[2026-09-29T09:40:41] session start, RUN_TAG=20260929_094041, cwd=/content/drive/MyDrive/soup_project
+[2026-09-29T09:41:20] $ soup data lint data/dpo_train.jsonl --format dpo -o logs/lint_train.json  -> logs/data_checks_20260929_094041.txt
+[2026-09-29T09:41:23] $ soup data lint data/dpo_eval.jsonl --format dpo -o logs/lint_eval.json  -> logs/data_checks_20260929_094041.txt
+[2026-09-29T09:41:52] $ soup doctor  -> logs/soup_doctor_20260929_094041.txt
+[2026-09-29T09:42:26] $ python memory_budget.py --out logs/memory_budget_predicted.json  -> logs/memory_budget_20260929_094041.txt
+[2026-09-29T15:43:47] session start, RUN_TAG=20260929_154347, cwd=/content/drive/MyDrive/soup_project
+[2026-09-29T15:44:48] $ nvidia-smi  -> logs/nvidia-smi_20260929_154347.txt
+[2026-09-29T15:44:48] $ soup data lint data/dpo_train.jsonl --format dpo -o logs/lint_train.json  -> logs/data_checks_20260929_154347.txt
+[2026-09-29T15:44:51] $ soup data lint data/dpo_eval.jsonl --format dpo -o logs/lint_eval.json  -> logs/data_checks_20260929_154347.txt
+[2026-09-29T15:45:00] $ soup doctor  -> logs/soup_doctor_20260929_154347.txt
+[2026-09-29T16:03:03] session start, RUN_TAG=20260929_160303, cwd=/content/drive/MyDrive/soup_project
+[2026-09-29T16:03:18] $ nvidia-smi  -> logs/nvidia-smi_20260929_160303.txt
+[2026-09-29T16:03:18] $ soup data lint data/dpo_train.jsonl --format dpo -o logs/lint_train.json  -> logs/data_checks_20260929_160303.txt
+[2026-09-29T16:03:20] $ soup data lint data/dpo_eval.jsonl --format dpo -o logs/lint_eval.json  -> logs/data_checks_20260929_160303.txt
+[2026-09-29T16:03:25] $ soup doctor  -> logs/soup_doctor_20260929_160303.txt
+[2026-09-29T16:06:10] $ python memory_budget.py --out logs/memory_budget_predicted.json  -> logs/memory_budget_20260929_160303.txt
+[2026-09-29T16:06:24] nvidia-smi logger pid 7344
+[2026-09-29T16:06:25] dataset: train=400 val=0
+[2026-09-29T16:14:41] session start, RUN_TAG=20260929_161441, cwd=/content/drive/MyDrive/soup_project
+[2026-09-29T16:16:08] $ nvidia-smi  -> logs/nvidia-smi_20260929_161441.txt
+[2026-09-29T16:21:42] $ python memory_budget.py --out logs/memory_budget_predicted.json  -> logs/memory_budget_20260929_161441.txt
+[2026-09-29T16:22:34] nvidia-smi logger pid 11611
+[2026-09-29T16:28:45] dataset: train=400 val=0
+[2026-09-29T16:51:11] session start, RUN_TAG=20260929_165111, cwd=/content/drive/MyDrive/soup_project
+[2026-09-29T16:53:05] nvidia-smi logger pid 19324
+[2026-09-29T16:53:18] dataset: train=400 val=0
+[2026-09-29T16:55:11] dataset: train=400 val=0
+[2026-09-29T16:55:41] after setup: {'alloc_GB': 0.811098112, 'max_GB': 0.811098112}
+[2026-09-29T16:55:41] training start
+[2026-09-29T17:03:08] training end: {'initial_loss': 0.6931471824645996, 'final_loss': 0.310870885848999, 'duration': '7m', 'duration_secs': 437.0548574924469, 'output_dir': '/content/out-dpo-1.5b', 'total_steps': 100}
+[2026-09-29T17:26:03] $ nvidia-smi  -> logs/nvidia-smi_20260929_165111.txt
+[2026-09-29T17:27:07] adapter copied to adapters/20260929_165111
+[2026-09-29T17:28:38] $ python verify_training.py --adapter adapters/20260929_165111 --out logs/verify_20260929_165111.json  -> logs/verify_20260929_165111.txt

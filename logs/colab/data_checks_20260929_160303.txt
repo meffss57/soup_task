@@ -1,0 +1,55 @@
+===== 2026-09-29T16:03:20 $ soup data lint data/dpo_train.jsonl --format dpo -o logs/lint_train.json (exit 2)
+                              soup data lint (dpo)                              
+┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Check           ┃ Verdict ┃ Message                ┃ Evidence                ┃
+┡━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ length_bias     │ MAJOR   │ effect size (Cohen's   │ mean chosen=39.8, mean  │
+│                 │         │ d) = 0.965 (chosen     │ rejected=32.0           │
+│                 │         │ longer than rejected); │                         │
+│                 │         │ chosen is longer in    │                         │
+│                 │         │ 74.0% of rows          │                         │
+│ identical_pairs │ OK      │ 0/400 rows (0.0%) have │                         │
+│                 │         │ chosen == rejected     │                         │
+│                 │         │ (zero preference       │                         │
+│                 │         │ signal)                │                         │
+│ near_duplicates │ OK      │ near-dup check skipped │ pip install             │
+│                 │         │ (datasketch not        │ "soup-cli[data]" to     │
+│                 │         │ installed)             │ enable                  │
+│ prompt_leak     │ OK      │ 0/400 rows (0.0%) have │ min_prompt_len=40       │
+│                 │         │ the prompt echoed      │                         │
+│                 │         │ verbatim inside the    │                         │
+│                 │         │ completion             │                         │
+└─────────────────┴─────────┴────────────────────────┴─────────────────────────┘
+╭────────── overall ───────────╮
+│ MAJOR — 400/400 rows scanned │
+╰──────────────────────────────╯
+Wrote logs/lint_train.json
+
+===== 2026-09-29T16:03:21 $ soup data lint data/dpo_eval.jsonl --format dpo -o logs/lint_eval.json (exit 2)
+                              soup data lint (dpo)                              
+┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Check           ┃ Verdict ┃ Message                ┃ Evidence                ┃
+┡━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ length_bias     │ MAJOR   │ effect size (Cohen's   │ mean chosen=39.6, mean  │
+│                 │         │ d) = 0.824 (chosen     │ rejected=32.4           │
+│                 │         │ longer than rejected); │                         │
+│                 │         │ chosen is longer in    │                         │
+│                 │         │ 75.0% of rows          │                         │
+│ identical_pairs │ OK      │ 0/100 rows (0.0%) have │                         │
+│                 │         │ chosen == rejected     │                         │
+│                 │         │ (zero preference       │                         │
+│                 │         │ signal)                │                         │
+│ near_duplicates │ OK      │ near-dup check skipped │ pip install             │
+│                 │         │ (datasketch not        │ "soup-cli[data]" to     │
+│                 │         │ installed)             │ enable                  │
+│ prompt_leak     │ OK      │ 0/100 rows (0.0%) have │ min_prompt_len=40       │
+│                 │         │ the prompt echoed      │                         │
+│                 │         │ verbatim inside the    │                         │
+│                 │         │ completion             │                         │
+└─────────────────┴─────────┴────────────────────────┴─────────────────────────┘
+╭────────── overall ───────────╮
+│ MAJOR — 100/100 rows scanned │
+╰──────────────────────────────╯
+Wrote logs/lint_eval.json
+
+[2026-09-29T16:03:25] token check: {'max_len': 261, 'over_512': 0, 'mean_len': 180.615, 'answers_ending_with_eos': '1000/1000'}

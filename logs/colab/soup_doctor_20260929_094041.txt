@@ -1,0 +1,57 @@
+===== 2026-09-29T09:42:20 $ soup doctor (exit 0)
+Soup Doctor - checking your environment...
+
+╭─────────────────────────────────── System ───────────────────────────────────╮
+│ Python:   3.13.15                                                            │
+│ Platform: Linux 6.6.122+                                                     │
+│ Arch:     x86_64                                                             │
+│ `soup` runs under /usr/bin/python3; `python` on your PATH is                 │
+│ /usr/local/bin/python. site-packages may differ — for any `python -c` check  │
+│ use the soup interpreter explicitly.                                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────── GPU ─────────────────────────────────────╮
+│ Backend:  CPU only                                                           │
+│ Warning:  Training will be slow without GPU.                                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+    System Resources     
+┏━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Resource ┃ Value      ┃
+┡━━━━━━━━━━╇━━━━━━━━━━━━┩
+│ RAM      │ 13 GB      │
+│ Disk     │ 83 GB free │
+└──────────┴────────────┘
+
+                             Dependencies                             
+┏━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Package      ┃ Required ┃ Installed  ┃ Min Version ┃ Status        ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ pydantic     │   yes    │   2.13.5   │ >=2.0.0     │ OK            │
+│ typer        │   yes    │   0.20.1   │ >=0.9.0     │ OK            │
+│ rich         │   yes    │   13.9.4   │ >=13.0.0    │ OK            │
+│ pyyaml       │   yes    │   6.0.3    │ >=6.0       │ OK            │
+│ plotext      │   yes    │   6.1.0    │ >=5.2.0     │ OK            │
+│ fastapi      │ optional │  0.141.1   │ >=0.104.0   │ OK            │
+│ uvicorn      │ optional │   0.53.0   │ >=0.24.0    │ OK            │
+│ datasketch   │ optional │     -      │ >=1.6.0     │ not installed │
+│ lm-eval      │ optional │     -      │ >=0.4.0     │ not installed │
+│ wandb        │ optional │   0.28.1   │ >=0.15.0    │ OK            │
+│ deepspeed    │ optional │     -      │ >=0.12.0    │ not installed │
+│ httpx        │ optional │   0.28.1   │ >=0.24.0    │ OK            │
+│ unsloth      │ optional │     -      │ >=2024.8    │ not installed │
+│ Pillow       │ optional │   11.3.0   │ >=9.0.0     │ OK            │
+│ torchao      │ optional │     -      │ >=0.4.0     │ not installed │
+│ sglang       │ optional │     -      │ >=0.2.0     │ not installed │
+│ librosa      │ optional │   0.11.0   │ >=0.10.0    │ OK            │
+│ torch        │ [train]  │ 2.11.0+cpu │ >=2.6.0     │ OK            │
+│ transformers │ [train]  │   5.17.0   │ >=5.16.1    │ OK            │
+│ peft         │ [train]  │   0.21.0   │ >=0.20.0    │ OK            │
+│ trl          │ [train]  │   0.29.1   │ >=0.29.0    │ OK            │
+│ datasets     │ [train]  │   4.8.5    │ >=2.14.0    │ OK            │
+│ bitsandbytes │ [train]  │   0.50.2   │ >=0.41.0    │ OK            │
+│ accelerate   │ [train]  │   1.15.0   │ >=0.27.0    │ OK            │
+└──────────────┴──────────┴────────────┴─────────────┴───────────────┘
+
+All checks passed! Your environment is ready.
+
+GitHub: https://github.com/MakazhanAlpamys/Soup
+
